@@ -2546,6 +2546,7 @@ img {
   @media only screen and (max-width: 767px) {
     .contact--thumbnail {
       margin-bottom: 100px; } }
+      
 
 /* :: 24.0 Portfolio Details Area CSS */
 .portfolio-details-area {
@@ -2638,6 +2639,27 @@ img {
     margin-bottom: 0; }
   .portfolio-details-meta:last-child {
     margin-bottom: 0; }
+
+/* :: 25.0 Donate Details CSS */
+
+.btn-donate {
+  display: inline-block;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px; 
+  margin-bottom: 20px;
+}
+  
+    
+.btn-donate:hover {
+  background-color: #45a049; }
 
 
 /* ======= The End ======= */

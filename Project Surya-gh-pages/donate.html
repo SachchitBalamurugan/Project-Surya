@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Alazea - Gardening &amp; Landscaping HTML Template</title>
+    <title>Project Surya</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/ProjectSuryaLogo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -24,7 +24,7 @@
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="preloader-circle"></div>
         <div class="preloader-img">
-            <img src="img/core-img/leaf.png" alt="">
+            <img src="img/core-img/sun.png" alt="">
         </div>
     </div>
 
@@ -82,7 +82,7 @@
                     <nav class="classy-navbar justify-content-between" id="alazeaNav">
 
                         <!-- Nav Brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="#"><img style="height: 90px; width: 90px;" src="img/core-img/ProjectSuryaLogo.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -106,9 +106,9 @@
                                         <ul class="dropdown">
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="about.html">About</a></li>
-                                            <li><a href="shop.html">Impact</a>
+                                            <li><a href="shop.html">Shop</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="shop.html">Impact</a></li>
+                                                    <li><a href="shop.html">Shop</a></li>
                                                     <li><a href="shop-details.html">Shop Details</a></li>
                                                     <li><a href="cart.html">Shopping Cart</a></li>
                                                     <li><a href="checkout.html">Checkout</a></li>
@@ -129,7 +129,7 @@
                                             <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop.html">Impact</a></li>
+                                    <li><a href="shop.html">Shop</a></li>
                                     <li><a href="portfolio.html">Portfolio</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                     <li><a href="donate.html">Donate</a></li>
@@ -164,129 +164,46 @@
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
         <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/24.jpg);">
-            <h2>Cart</h2>
+            <h2>Donate</h2>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Cart</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
+       
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
-
-    <!-- ##### Cart Area Start ##### -->
-    <div class="cart-area section-padding-0-100 clearfix">
+    
+    <!-- ##### Donate Area Start #####-->
+    <section style="position: relative; background-color: #522b19;" class="project-surya-section section-padding-100-0">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="cart-table clearfix">
-                        <table class="table table-responsive">
-                            <thead>
-                                <tr>
-                                    <th>Products</th>
-                                    <th>Quantity</th>
-                                    <th>Price</th>
-                                    <th>TOTAL</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="cart_product_img">
-                                        <a href="#"><img src="img/bg-img/34.jpg" alt="Product"></a>
-                                        <h5>Recuerdos Plant</h5>
-                                    </td>
-                                    <td class="qty">
-                                        <div class="quantity">
-                                            <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                            <input type="number" class="qty-text" id="qty" step="1" min="1" max="99" name="quantity" value="1">
-                                            <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                        </div>
-                                    </td>
-                                    <td class="price"><span>$9.99</span></td>
-                                    <td class="total_price"><span>$9.99</span></td>
-                                    <td class="action"><a href="#"><i class="icon_close"></i></a></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="section-heading text-center">
+                        <h2 style="color: white; font-weight: bold;">Contribute in saving people's lives!</h2>
                     </div>
                 </div>
             </div>
-
             <div class="row">
-
-                <!-- Coupon Discount -->
-                <div class="col-12 col-lg-6">
-                    <div class="coupon-discount mt-70">
-                        <h5>COUPON DISCOUNT</h5>
-                        <p>Coupons can be applied in the cart prior to checkout. Add an eligible item from the booth of the seller that created the coupon code to your cart. Click the green "Apply code" button to add the coupon to your order. The order total will update to indicate the savings specific to the coupon code entered.</p>
-                        <form action="#" method="post">
-                            <input type="text" name="coupon-code" placeholder="Enter your coupon code">
-                            <button type="submit">APPLY COUPON</button>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Cart Totals -->
-                <div class="col-12 col-lg-6">
-                    <div class="cart-totals-area mt-70">
-                        <h5 class="title--">Cart Total</h5>
-                        <div class="subtotal d-flex justify-content-between">
-                            <h5>Subtotal</h5>
-                            <h5>$9.99</h5>
-                        </div>
-                        <div class="shipping d-flex justify-content-between">
-                            <h5>Shipping</h5>
-                            <div class="shipping-address">
-                                <form action="#" method="post">
-                                    <select class="custom-select">
-                                      <option selected>Country</option>
-                                      <option value="1">USA</option>
-                                      <option value="2">Latvia</option>
-                                      <option value="3">Japan</option>
-                                      <option value="4">Bangladesh</option>
-                                    </select>
-                                    <input type="text" name="shipping-text" id="shipping-text" placeholder="State">
-                                    <input type="text" name="shipping-zip" id="shipping-zip" placeholder="ZIP">
-                                    <button type="submit">Update Total</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="total d-flex justify-content-between">
-                            <h5>Total</h5>
-                            <h5>$9.99</h5>
-                        </div>
-                        <div class="checkout-btn">
-                            <a href="#" class="btn alazea-btn w-100">PROCEED TO CHECKOUT</a>
-                        </div>
+                <div class="col-12">
+                    <div class="project-surya-content text-center"> <!-- Added text-center class here -->
+                        <p style="color: white;">A mere contribution of at least Rs. 1000 (INR) will help a type-one diabetic child afford and access life-giving insulin for an entire month.Every donation makes a tremendous difference!Type-one diabetic children in India do not have the access to quality healthcare and sufficient resources like glucose monitors, insulin cartridges, insulin pens and CGMs.An average type-one diabetic spends over 20,000 Indian National Rupees on their diabetes every single year.From purchasing insulin, syringes, lancets to diagnostic tests and transport; 20,000 rupees is an inconceivable amount to spend for presumably a daily income worker. Let alone affordability of the essential resources, their mental health is ever deteriorating.From not being able to afford a refrigerator to store life-giving insulin, to missing school due to lack of awareness; the underprivileged t-1 diabetics are facing various problems.Hello! I am Divaa Uthkarsha, a 13-year-old student studying at National Public School Bangalore. I am also a 1M1B Future Leader.Through my project 'Project Surya', I aim to help the underprivileged type one diabetic adolescent living in Bengaluru lead a better quality of life with regards to the management of their diabetes.I started Project Surya as I was inspired by my 10-year-old brother- Surya who is also diagnosed with type-one diabetesWe have a three-pronged approach namely awareness, advocacy and funding.We have conducted various sessions in collaboration with the Samatvam Foundation and the Jnana Sanjeevini Trust (DISHA program)http://samatvam.org/#/charityThrough this fundraiser, I aim to provide insulin pens to the underprivileged type one diabetic kids in collaboration with the DISHA group.So we really urge you to support our cause and support the lives of so many underprivileged type-one diabetic kids.Even a small donation goes a long way!!Because with every donation, one life is sweetened!</p>
+                        <a href="https://milaap.org/fundraisers/support-less-privileged-type-1-diabetic-adolescents" class="btn btn-donate mt-3" target="_blank">Donate</a>
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
-    <!-- ##### Cart Area End ##### -->
+        <div class="background-animation"></div> <!-- Added background-animation div -->
+    </section>
+    <!-- ##### Donate Area Info End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area bg-img" style="background-image: url(img/bg-img/3.jpg);">
-        <!-- Main Footer Area -->
+    <footer class="footer-area" style="background-image: linear-gradient(135deg, #dead84, #97704F, #714423, #2F1b12, #43392F);">        <!-- Main Footer Area -->
         <div class="main-footer-area">
             <div class="container">
                 <div class="row">
-
                     <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-lg-6">
                         <div class="single-footer-widget">
                             <div class="footer-logo mb-30">
-                                <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                                <a href="#"><img style="height: 100px; width: 100px;" src="img/core-img/ProjectSuryaLogo.png" alt=""></a>
                             </div>
                             <p>Lorem ipsum dolor sit samet, consectetur adipiscing elit. India situs atione mantor</p>
                             <div class="social-info">
@@ -298,68 +215,14 @@
                             </div>
                         </div>
                     </div>
-
+    
                     <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget">
-                            <div class="widget-title">
-                                <h5>QUICK LINK</h5>
-                            </div>
-                            <nav class="widget-nav">
-                                <ul>
-                                    <li><a href="#">Purchase</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Payment</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Return</a></li>
-                                    <li><a href="#">Advertise</a></li>
-                                    <li><a href="#">Shipping</a></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Orders</a></li>
-                                    <li><a href="#">Policities</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget">
-                            <div class="widget-title">
-                                <h5>BEST SELLER</h5>
-                            </div>
-
-                            <!-- Single Best Seller Products -->
-                            <div class="single-best-seller-product d-flex align-items-center">
-                                <div class="product-thumbnail">
-                                    <a href="shop-details.html"><img src="img/bg-img/4.jpg" alt=""></a>
-                                </div>
-                                <div class="product-info">
-                                    <a href="shop-details.html">Cactus Flower</a>
-                                    <p>$10.99</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Best Seller Products -->
-                            <div class="single-best-seller-product d-flex align-items-center">
-                                <div class="product-thumbnail">
-                                    <a href="shop-details.html"><img src="img/bg-img/5.jpg" alt=""></a>
-                                </div>
-                                <div class="product-info">
-                                    <a href="shop-details.html">Tulip Flower</a>
-                                    <p>$11.99</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-lg-6">
                         <div class="single-footer-widget">
                             <div class="widget-title">
                                 <h5>CONTACT</h5>
                             </div>
-
+    
                             <div class="contact-information">
                                 <p><span>Address:</span> 505 Silk Rd, New York</p>
                                 <p><span>Phone:</span> +1 234 122 122</p>
@@ -372,43 +235,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Footer Bottom Area -->
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="border-line"></div>
-                    </div>
-                    <!-- Copywrite Text -->
-                    <div class="col-12 col-md-6">
-                        <div class="copywrite-text">
-                            <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-                        </div>
-                    </div>
-                    <!-- Footer Nav -->
-                    <div class="col-12 col-md-6">
-                        <div class="footer-nav">
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ##### Footer Area End ##### -->
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
